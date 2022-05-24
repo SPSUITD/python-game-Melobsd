@@ -1,1 +1,26 @@
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-c66648af7eb3fe8bc4f294546bfd86ef473780cde1dea487d3c4ff354943c9ae.svg)](https://classroom.github.com/online_ide?assignment_repo_id=7891477&assignment_repo_type=AssignmentRepo)
+import arcade
+SCREEN_WIDTH = 1024
+SCREEN_HEIGHT = 640
+SCREEN_TITLE = "Sweet world"
+
+TILE_SCALING = 1
+CHARACTER_SCALING = 0.6
+
+COIN_SCALING = 0.5
+
+PLAYER_X_SPEED = 5
+PLAYER_Y_SPEED = 6
+
+JUMP_MAX_HEIGHT = 140
+
+PLAYER_SPRITE_IMAGE_CHANGE_SPEED = 30
+
+WINIMAGE_SCALING = 1
+GAMEOVER_SCALING = 1
+
+ENEMY_SCALING = 0.5
+
+LEFT_FACING = -1
+RIGHT_FACING = 1
+
+ENEMY_SPEED = 4
